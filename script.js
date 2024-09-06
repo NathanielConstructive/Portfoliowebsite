@@ -8,14 +8,14 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
-// Einfaches Kontaktformular mit Feedback
+
 document.getElementById('contact-form').addEventListener('submit', function(e) {
     e.preventDefault();
     const name = document.getElementById('name').value;
     const email = document.getElementById('email').value;
     const message = document.getElementById('message').value;
 
-    // Beispiel-Feedback, hier könnte eine Backend-Integration erfolgen
+    
     document.getElementById('feedback').textContent = `Danke für Ihre Nachricht, ${name}. Ich werde mich bald bei Ihnen melden!`;
     this.reset();
 });
@@ -23,6 +23,7 @@ document.getElementById('contact-form').addEventListener('submit', function(e) {
 document.getElementById('contact-form').addEventListener('submit', function(e) {
     e.preventDefault();
     
+    // Sende das Formular an EmailJS
     emailjs.sendForm('service_6yelz19', 'template_co9hwg9', this)
     .then(function() {
         document.getElementById('feedback').textContent = "E-Mail erfolgreich gesendet!";
@@ -30,5 +31,7 @@ document.getElementById('contact-form').addEventListener('submit', function(e) {
         document.getElementById('feedback').textContent = "E-Mail konnte nicht gesendet werden.";
     });
 
+    // Formular zurücksetzen
     this.reset();
 });
+
