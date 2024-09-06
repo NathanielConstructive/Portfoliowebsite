@@ -19,3 +19,16 @@ document.getElementById('contact-form').addEventListener('submit', function(e) {
     document.getElementById('feedback').textContent = `Danke für Ihre Nachricht, ${name}. Ich werde mich bald bei Ihnen melden!`;
     this.reset();
 });
+
+document.getElementById('contact-form').addEventListener('submit', function(e) {
+    e.preventDefault();
+    
+    emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', this)
+    .then(function() {
+        document.getElementById('feedback').textContent = "E-Mail erfolgreich gesendet!";
+    }, function(error) {
+        document.getElementById('feedback').textContent = "E-Mail konnte nicht gesendet werden.";
+    });
+
+    this.reset();
+});
