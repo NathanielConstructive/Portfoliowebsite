@@ -23,7 +23,7 @@ document.getElementById('contact-form').addEventListener('submit', function(e) {
 document.getElementById('contact-form').addEventListener('submit', function(e) {
     e.preventDefault();
     
-    emailjs.sendForm('service_6yelz19', 'YOUR_TEMPLATE_ID', this)
+    emailjs.sendForm('service_6yelz19', 'template_co9hwg9', this)
     .then(function() {
         document.getElementById('feedback').textContent = "E-Mail erfolgreich gesendet!";
     }, function(error) {
