@@ -12,7 +12,7 @@ Mirhan Özden
 
 ### 1.1 Ihr Projekt
 
-Mein Projekt ist eine Portfoliowebsite über mich, wo ich mich Präsentiere
+Mein Projekt ist eine Portfoliowebsite über mich, wo ich alles über mich aufzeige.
 
 ### 1.2 User Stories
 
