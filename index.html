@@ -3,57 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mirhans Portfolio</title>
-    <link rel="styles" href="styles.css">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Mirhans Portfolio</h1>
-    </header>
-
+    <!-- Navigation -->
     <nav>
         <ul>
-            <li><a href="#projekte">Projekte</a></li>
-            <li><a href="#dokumentationen">Dokumentationen</a></li>
-            <li><a href="#portfolio">Portfoliobeiträge</a></li>
+            <li><a href="#home">Startseite</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Kontakt</a></li>
         </ul>
     </nav>
 
-    <section id="projekte">
-        <h2>Projekte</h2>
-        <div class="projekt">
-            <h3>Projekt 1</h3>
-            <p>Beschreibung des Projekts.</p>
-        </div>
-        <div class="projekt">
-            <h3>Projekt 2</h3>
-            <p>Beschreibung des Projekts.</p>
-        </div>
-        <!-- Weitere Projekte hier hinzufügen -->
+    <!-- Startseite -->
+    <section id="home">
+        <h1>Willkommen auf meiner Portfolio-Website</h1>
+        <p>Hier finden Sie eine Übersicht meiner Arbeiten und Fähigkeiten.</p>
     </section>
 
-    <section id="dokumentationen">
-        <h2>Dokumentationen</h2>
-        <ul>
-            <li><a href="#">Dokumentation zu Projekt 1</a></li>
-            <li><a href="#">Dokumentation zu Projekt 2</a></li>
-            <!-- Weitere Links hinzufügen -->
-        </ul>
-    </section>
-
+    <!-- Portfolio -->
     <section id="portfolio">
-        <h2>Portfoliobeiträge</h2>
-        <ul>
-            <li><a href="#">Portfoliobeitrag zu Projekt 1</a></li>
-            <li><a href="#">Portfoliobeitrag zu Projekt 2</a></li>
-            <!-- Weitere Links hinzufügen -->
-        </ul>
+        <h2>Meine Projekte</h2>
+        <div class="project">
+            <h3>Projekt 1</h3>
+            <p>Beschreibung: Eine Web-Anwendung für Aufgabenverwaltung.</p>
+        </div>
+        <div class="project">
+            <h3>Projekt 2</h3>
+            <p>Beschreibung: Ein responsives Design für ein Online-Portfolio.</p>
+        </div>
+        <div class="project">
+            <h3>Projekt 3</h3>
+            <p>Beschreibung: Eine E-Commerce-Seite für ein kleines Unternehmen.</p>
+        </div>
     </section>
 
+    <!-- Kontakt -->
+    <section id="contact">
+        <h2>Kontaktieren Sie mich</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">E-Mail:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Nachricht:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Absenden</button>
+        </form>
+        <div id="feedback"></div>
+    </section>
+
+    <!-- Footer mit Social Media Links -->
     <footer>
-        <p>&copy; 2024 Mirhans Portfolio</p>
+        <p>Folgen Sie mir:</p>
+        <a href="https://twitter.com/beispiel">Twitter</a> |
+        <a href="https://linkedin.com/beispiel">LinkedIn</a>
     </footer>
 
-    <script src="app.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>

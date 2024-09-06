@@ -1,11 +1,21 @@
-
-document.addEventListener("DOMContentLoaded", function() {
-    // Beispielhafte interaktive Funktionalität
-    const projects = document.querySelectorAll('.projekt');
-    
-    projects.forEach((project) => {
-        project.addEventListener('click', function() {
-            alert('Mehr Informationen zu ' + this.querySelector('h3').innerText);
+// Animierte Übergänge
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
         });
     });
+});
+
+// Einfaches Kontaktformular mit Feedback
+document.getElementById('contact-form').addEventListener('submit', function(e) {
+    e.preventDefault();
+    const name = document.getElementById('name').value;
+    const email = document.getElementById('email').value;
+    const message = document.getElementById('message').value;
+
+    // Beispiel-Feedback, hier könnte eine Backend-Integration erfolgen
+    document.getElementById('feedback').textContent = `Danke für Ihre Nachricht, ${name}. Ich werde mich bald bei Ihnen melden!`;
+    this.reset();
 });
