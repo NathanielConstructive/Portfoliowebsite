@@ -34,6 +34,7 @@ Mein Projekt ist eine Portfoliowebsite über mich, wo ich alles über mich aufze
 | 15   | Kann            | Rand        | Als ein Besucher möchte ich eine Blog-Sektion sehen, damit ich mehr über die Denkweise und Ansichten des Websiten-Besitzers erfahre. | 2 Lektionen               |
 | 16   | Muss            | Funktional  | Als ein Besucher möchte ich, dass die Website barrierefrei ist, damit sie für alle Nutzer zugänglich ist. | 2 Lektionen               |
 | 17   | Kann            | Rand        | Als ein Besucher möchte ich die Möglichkeit haben, das Design der Seite zwischen einem hellen und einem dunklen Modus zu wechseln, damit die Seite angenehmer zu benutzen ist. | 1 Lektion                 |
+|18|muss|funktional|Als Benutzer möchte ich die Website auf Github publishen, damit andere meine Website sehen können.|
 
 ✍️ Jede User Story hat eine ganzzahlige Nummer (1, 2, 3 etc.), eine Verbindlichkeit (Muss oder Kann?), und einen Typ (Funktional, Qualität, Rand). Die User Story selber hat folgende Form: *Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️*.
 
