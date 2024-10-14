@@ -38,31 +38,28 @@ section {
 
 #portfolio {
     background-color: #eaeaea;
+    display: flex;
+    flex-wrap: wrap; /* Falls es zu viele Projekte für eine Zeile gibt, werden sie umgebrochen */
+    justify-content: space-between; /* Verteilung der Projekte mit Platz zwischen ihnen */
 }
 
 .project {
     background-color: #fff;
-    margin: 1em 0;
+    margin: 1em;
     padding: 1em;
     border: 1px solid #ccc;
+    flex-basis: 30%; /* Setzt die Breite jedes Projekts auf etwa 30% des Containers */
+    box-sizing: border-box; /* Berücksichtigt Padding und Border in der Breite */
 }
 
-#contact {
-    background-color: #f4f4f4;
-}
-
-footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 1em;
-    margin-top: 2em;
-}
-
-/* Responsivität */
 @media (max-width: 768px) {
-    nav ul li {
-        display: block;
-        margin: 0.5em 0;
+    #portfolio {
+        display: block; /* Für kleinere Bildschirme werden die Projekte wieder untereinander angezeigt */
+    }
+    
+    .project {
+        flex-basis: 100%; /* Nimmt die gesamte Breite bei kleinen Bildschirmen ein */
+        margin: 1em 0; /* Abstand zwischen den Projekten anpassen */
     }
 }
+
