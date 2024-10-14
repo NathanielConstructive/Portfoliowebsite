@@ -51,15 +51,23 @@ section {
     flex-basis: 30%; /* Setzt die Breite jedes Projekts auf etwa 30% des Containers */
     box-sizing: border-box; /* Berücksichtigt Padding und Border in der Breite */
 }
+#contact {
+    background-color: #f4f4f4;
+}
 
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    margin-top: 2em;
+}
+
+/* Responsivität */
 @media (max-width: 768px) {
-    #portfolio {
-        display: block; /* Für kleinere Bildschirme werden die Projekte wieder untereinander angezeigt */
-    }
-    
-    .project {
-        flex-basis: 100%; /* Nimmt die gesamte Breite bei kleinen Bildschirmen ein */
-        margin: 1em 0; /* Abstand zwischen den Projekten anpassen */
+    nav ul li {
+        display: block;
+        margin: 0.5em 0;
     }
 }
 
