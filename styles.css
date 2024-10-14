@@ -101,7 +101,6 @@ footer[data-theme="dark"] {
 }
 
 /* Toggle Button Style */
-/* Toggle Button Style */
 #theme-toggle {
     position: relative;
     width: 40px;
@@ -113,7 +112,7 @@ footer[data-theme="dark"] {
     transition: background-color 0.3s ease;
     margin-left: 1em;
     vertical-align: middle;
-    appearance: none; /* Entfernt das Standarddesign für alle Browser */
+    appearance: none; /* Entfernt das Standarddesign */
 }
 
 #theme-toggle:checked {
