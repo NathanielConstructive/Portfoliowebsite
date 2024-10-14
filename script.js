@@ -35,3 +35,24 @@ document.getElementById('contact-form').addEventListener('submit', function(e) {
     this.reset();
 });
 
+document.addEventListener('DOMContentLoaded', function() {
+    const toggleSwitch = document.getElementById('theme-toggle');
+    const currentTheme = localStorage.getItem('theme') || 'light';
+
+    // Setze das aktuelle Thema
+    document.body.setAttribute('data-theme', currentTheme);
+    if (currentTheme === 'dark') {
+        toggleSwitch.checked = true;
+    }
+
+    // Wechsle das Thema bei Klick auf den Toggle-Schalter
+    toggleSwitch.addEventListener('change', function() {
+        if (toggleSwitch.checked) {
+            document.body.setAttribute('data-theme', 'dark');
+            localStorage.setItem('theme', 'dark');
+        } else {
+            document.body.setAttribute('data-theme', 'light');
+            localStorage.setItem('theme', 'light');
+        }
+    });
+});

@@ -3,6 +3,8 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #ffffff;
+    color: #000000;
 }
 
 img {
@@ -58,6 +60,7 @@ section {
     flex-basis: 30%; /* Setzt die Breite jedes Projekts auf etwa 30% des Containers */
     box-sizing: border-box; /* Berücksichtigt Padding und Border in der Breite */
 }
+
 #contact {
     background-color: #f4f4f4;
 }
@@ -70,6 +73,25 @@ footer {
     margin-top: 2em;
 }
 
+/* Dunkelmodus */
+body[data-theme="dark"] {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+nav[data-theme="dark"] {
+    background-color: #333;
+}
+
+.project[data-theme="dark"] {
+    background-color: #1e1e1e;
+    border: 1px solid #555;
+}
+
+footer[data-theme="dark"] {
+    background-color: #333;
+}
+
 /* Responsivität */
 @media (max-width: 768px) {
     nav ul li {
@@ -78,3 +100,38 @@ footer {
     }
 }
 
+/* Toggle Button Style */
+/* Toggle Button Style */
+#theme-toggle {
+    position: relative;
+    width: 40px;
+    height: 20px;
+    background-color: #ccc;
+    outline: none;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+    margin-left: 1em;
+    vertical-align: middle;
+    appearance: none; /* Entfernt das Standarddesign für alle Browser */
+}
+
+#theme-toggle:checked {
+    background-color: #00ad90;
+}
+
+#theme-toggle::before {
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: white;
+    top: 2px;
+    left: 2px;
+    transition: transform 0.3s ease;
+}
+
+#theme-toggle:checked::before {
+    transform: translateX(20px);
+}
