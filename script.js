@@ -1,4 +1,3 @@
-
 document.addEventListener('DOMContentLoaded', function() {
     const toggleSwitch = document.getElementById('theme-toggle');
     const currentTheme = localStorage.getItem('theme') || 'light';
@@ -11,17 +10,13 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Wechsle das Thema bei Klick auf den Toggle-Schalter
     toggleSwitch.addEventListener('change', function() {
-        if (toggleSwitch.checked) {
-            document.body.setAttribute('data-theme', 'dark');
-            localStorage.setItem('theme', 'dark');
-        } else {
-            document.body.setAttribute('data-theme', 'light');
-            localStorage.setItem('theme', 'light');
-        }
+        const newTheme = toggleSwitch.checked ? 'dark' : 'light';
+        document.body.setAttribute('data-theme', newTheme);
+        document.querySelectorAll('nav, #home, #portfolio, #contact, footer, .project')
+            .forEach(el => el.setAttribute('data-theme', newTheme));
+        localStorage.setItem('theme', newTheme);
     });
 });
-
-
 
 // Animierte Übergänge
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
@@ -33,14 +28,12 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
-
 document.getElementById('contact-form').addEventListener('submit', function(e) {
     e.preventDefault();
     const name = document.getElementById('name').value;
     const email = document.getElementById('email').value;
     const message = document.getElementById('message').value;
 
-    
     document.getElementById('feedback').textContent = `Danke für Ihre Nachricht, ${name}. Ich werde mich bald bei Ihnen melden!`;
     this.reset();
 });

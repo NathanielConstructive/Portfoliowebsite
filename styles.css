@@ -7,11 +7,12 @@ body {
     color: #000000;
 }
 
-img {
+img, video {
+    width: 100%;
+    max-width: 150px;
     border: 1px solid #ddd;
     border-radius: 4px;
-    padding: 5px;
-    width: 150px;
+    transition: opacity 0.3s ease;
 }
 
 nav {
@@ -40,37 +41,98 @@ section {
     padding: 2em;
 }
 
+/* Zentriere den Text im Home-Bereich */
 #home {
-    background-color: #f4f4f4;
-    text-align: center;
+    text-align: center; /* Text zentrieren */
+}
+
+/* Zentriere den Text im Kontaktbereich */
+#contact {
+    text-align: center; /* Text zentrieren */
+}
+
+/* Zentriere den Text im Footer */
+footer {
+    text-align: center; /* Text zentrieren */
 }
 
 #portfolio {
     background-color: #eaeaea;
     display: flex;
-    flex-wrap: wrap; /* Falls es zu viele Projekte für eine Zeile gibt, werden sie umgebrochen */
-    justify-content: space-between; /* Verteilung der Projekte mit Platz zwischen ihnen */
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .project {
     background-color: #fff;
     margin: 1em;
-    padding: 1em;
+    padding: 1.5em;
     border: 1px solid #ccc;
-    flex-basis: 30%; /* Setzt die Breite jedes Projekts auf etwa 30% des Containers */
-    box-sizing: border-box; /* Berücksichtigt Padding und Border in der Breite */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    flex-basis: 30%;
+    box-sizing: border-box;
+    position: relative; /* Wichtig für die Positionierung des Videos */
+    overflow: hidden; /* Verhindert, dass das Video außerhalb des Projekts sichtbar ist */
 }
 
-#contact {
-    background-color: #f4f4f4;
+.project:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
-footer {
+.project h3 {
+    margin-bottom: 0.5em;
+}
+
+.project p {
+    margin-bottom: 1.2em;
+}
+
+.project video {
+    position: absolute; /* Video ist absolut positioniert innerhalb des Containers */
+    top: 0; /* Video beginnt oben */
+    left: 0; /* Video beginnt links */
+    width: 100%; /* Video nimmt 100% der Breite des Containers ein */
+    height: 100%; /* Video nimmt 100% der Höhe des Containers ein */
+    object-fit: cover; /* Video füllt den Container aus, ohne das Seitenverhältnis zu verzerren */
+    opacity: 0; /* Unsichtbar zu Beginn */
+    pointer-events: none; /* Damit das Video nicht den Hover-Trigger blockiert */
+    transition: opacity 0.3s ease; /* Sanfter Übergang für Opazität */
+}
+
+.project img {
+    transition: opacity 0.3s ease;
+    width: 100%; /* Bild nimmt 100% der Breite des Containers ein */
+    height: auto; /* Höhe automatisch, um das Seitenverhältnis zu wahren */
+}
+
+/* Verhindert das Abschneiden des Videos */
+.project:hover img {
+    opacity: 0; /* Verblende das Bild */
+}
+
+.project:hover video {
+    opacity: 1; /* Zeige das Video beim Hover */
+}
+
+.project-links {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1em;
+}
+
+.project-links a {
     background-color: #00ad90;
     color: white;
-    text-align: center;
-    padding: 1em;
-    margin-top: 2em;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.project-links a:hover {
+    background-color: #007a67;
 }
 
 /* Dunkelmodus */
@@ -83,6 +145,15 @@ nav[data-theme="dark"] {
     background-color: #333;
 }
 
+#home[data-theme="dark"],
+#contact[data-theme="dark"] {
+    background-color: #1e1e1e;
+}
+
+#portfolio[data-theme="dark"] {
+    background-color: #2e2e2e;
+}
+
 .project[data-theme="dark"] {
     background-color: #1e1e1e;
     border: 1px solid #555;
@@ -92,45 +163,8 @@ footer[data-theme="dark"] {
     background-color: #333;
 }
 
-/* Responsivität */
 @media (max-width: 768px) {
-    nav ul li {
-        display: block;
-        margin: 0.5em 0;
+    .project {
+        flex-basis: 100%;
     }
-}
-
-/* Toggle Button Style */
-#theme-toggle {
-    position: relative;
-    width: 40px;
-    height: 20px;
-    background-color: #ccc;
-    outline: none;
-    cursor: pointer;
-    border-radius: 20px;
-    transition: background-color 0.3s ease;
-    margin-left: 1em;
-    vertical-align: middle;
-    appearance: none; /* Entfernt das Standarddesign */
-}
-
-#theme-toggle:checked {
-    background-color: #00ad90;
-}
-
-#theme-toggle::before {
-    content: "";
-    position: absolute;
-    width: 16px;
-    height: 16px;
-    border-radius: 50%;
-    background-color: white;
-    top: 2px;
-    left: 2px;
-    transition: transform 0.3s ease;
-}
-
-#theme-toggle:checked::before {
-    transform: translateX(20px);
 }
