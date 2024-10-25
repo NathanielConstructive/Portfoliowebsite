@@ -108,7 +108,7 @@ Mein Projekt ist eine Portfoliowebsite in html,css und javascript, wo ich mich p
 | TC-№ | Datum | Resultat | Tester |
 | ---- | ----- | -------- | ------ |
 | 1.1  | 25.10.2024      | Funktioniert         | Mirhan Özden       |
-| 2.1  | 25.10.2024      |          |   Mirhan Özden       |
+| 2.1  | 25.10.2024      |  Funktioniert        |   Mirhan Özden       |
 |3.1|25.10.2024|Funktioniert|Mirhan Özden|
 |4.1|25.10.2024|Funktioniert|Mirhan Özden|
 |5.1|25.10.2024|Funktioniert|Mirhan Özden|
