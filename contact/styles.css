@@ -52,95 +52,10 @@ section {
     justify-content: space-between;
 }
 
-.project {
-    background-color: #fff;
-    margin: 1em;
-    padding: 1.5em;
-    border: 1px solid #ccc;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    flex-basis: 30%;
-    box-sizing: border-box;
-    position: relative;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-}
-
-.project:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-}
-
-.project h3 {
-    margin-bottom: 0.5em;
-}
-
-.project p {
-    margin-bottom: 1.2em;
-}
-
-
-.project img, .project video {
-    width: 100%;
-    max-width: 150px;
-    height: auto;
-    transition: opacity 0.3s ease;
-}
-
-.project video {
-    display: none;
-}
-
-.project:hover img {
-    display: none;
-}
-
-.project:hover video {
-    display: block;
-    transform: scale(1.3);
-}
-
-
-.project-content {
-    display: flex;
-    width: 100%;
-    flex-direction: column;
-    align-items: center;
-    gap: 1em;
-}
-
-.project-details {
-    text-align: center;
-    flex: 1;
-}
-
-.project-links {
-    display: flex;
-    flex-direction: column;
-    gap: 0.5em;
-    margin-top: 1em;
-}
-
-.project-links a {
-    background-color: #00ad90;
-    color: white;
-    padding: 0.5em 1em;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: background-color 0.3s;
-}
-
-.project-links a:hover {
-    background-color: #007a67;
-}
-
-/* Stil für das Kontaktformular */
+/* Stile für das Kontaktformular */
 #contact form {
-    max-width: 500px; 
-    margin: 0 auto; 
+    max-width: 500px; /* Maximale Breite des Formulars */
+    margin: 0 auto; /* Zentrale Ausrichtung */
     background-color: #f9f9f9;
     padding: 1.5em;
     border-radius: 10px; /* Abgerundete Ecken */
@@ -156,12 +71,12 @@ section {
 #contact input[type="text"],
 #contact input[type="email"],
 #contact textarea {
-    width: 100%; 
-    padding: 0.5em; 
-    margin-bottom: 1em;
-    border: 1px solid #ccc; 
-    border-radius: 5px; 
-    transition: border-color 0.3s ease; 
+    width: 100%; /* Volle Breite */
+    padding: 0.5em; /* Innenabstand */
+    margin-bottom: 1em; /* Abstand zwischen Feldern */
+    border: 1px solid #ccc; /* Rahmen */
+    border-radius: 5px; /* Abgerundete Ecken */
+    transition: border-color 0.3s ease; /* Übergangseffekt */
 }
 
 #contact input[type="text"]:focus,
@@ -206,9 +121,7 @@ nav[data-theme="dark"] {
     background-color: #1e1e1e;
 }
 
-#portfolio[data-theme="dark"] {
-    background-color: #2e2e2e;
-}
+
 
 .project[data-theme="dark"] {
     background-color: #1e1e1e;

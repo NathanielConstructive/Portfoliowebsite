@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <ul>
+            <li><a href="../index.html">Startseite</a></li> <!-- Pfad zu index.html -->
+            <li><a href="../IDAF_projects/idaf.html">IDAF Projekte</a></li> <!-- Pfad zu portfolio.html -->
+            <li>
+                <label for="theme-toggle">🌞/🌙</label>
+                <input type="checkbox" id="theme-toggle">
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Kontakt -->
+    <section id="contact">
+        <h2>Kontaktieren Sie mich</h2>
+        <form id="form" action="https://api.web3forms.com/submit" method="POST">
+            <label for="name">Name:</label>
+            <input type="hidden" id="name" name="access_key" value="49f25d77-2f18-42b8-8f4a-6f8122b6ce4b" required>
+            <input type="text" name="name" required>
+            <label for="email">E-Mail:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Nachricht:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Absenden</button>
+        </form>
+        <div id="result"></div>
+    </section>
+
+    <footer>
+        <p>Folgen Sie mir:</p>
+        <a href="https://x.com/OzdenMirhan">Twitter</a> |
+        <a href="https://www.linkedin.com/in/mirhan-özden-a11610311/">LinkedIn</a>
+    </footer>
+
+    <script src="../script.js"></script> <!-- Script-Pfad anpassen -->
+</body>
+</html>

@@ -5,29 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Website</title>
     <link rel="stylesheet" href="styles.css">
-    <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+
 </head>
 <body>
-    <!-- Navigation -->
-    <nav>
-        <ul>
-            <li><a href="#home">Startseite</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#contact">Kontakt</a></li>
-            <li>
-                <label for="theme-toggle">🌞/🌙</label>
-                <input type="checkbox" id="theme-toggle">
-            </li>
-        </ul>
-    </nav>
 
-    <!-- Startseite -->
+<nav>
+    <ul>
+        <li><a href="IDAF_projects/idaf.html">IDAF Projekte</a></li>
+        <li><a href="contact/contact.html">Kontakt</a></li> 
+        <li>
+            <label for="theme-toggle">🌞/🌙</label>
+            <input type="checkbox" id="theme-toggle">
+        </li>
+    </ul>
+</nav>
+
+
+
     <section id="home">
         <h1>Willkommen auf meiner Portfolio-Website</h1>
-        <p>Hier finden Sie eine Übersicht meiner Arbeiten und Fähigkeiten.</p>
+        <p>Hier finden Sie eine Übersicht meiner Arbeiten und Fähigkeiten im Zusammenhang mit IT.</p>
     </section>
 
-    <!-- Portfolio -->
+
     <section id="portfolio">
         <div class="project">
             <h3>Babacus</h3>
@@ -63,21 +63,7 @@
         </div>
     </section>
 
-    <!-- Kontakt -->
-    <section id="contact">
-        <h2>Kontaktieren Sie mich</h2>
-        <form action="https://api.web3forms.com/submit" method="POST">
-            <label for="name">Name:</label>
-            <input type="hidden" id="name" name="access_key" value= "49f25d77-2f18-42b8-8f4a-6f8122b6ce4b" required>
-            <input type="text" name="name" required>
-            <label for="email">E-Mail:</label>
-            <input type="email" id="email" name="email" required>
-            <label for="message">Nachricht:</label>
-            <textarea id="message" name="message" required></textarea>
-            <button type="submit">Absenden</button>
-        </form>
-        <div id="result"></div>
-    </section>
+
 
     <footer>
         <p>Folgen Sie mir:</p>
