@@ -31,6 +31,7 @@ Mein Projekt ist eine Portfoliowebsite über mich, wo ich alles über mich aufze
 | 13   | Kann            | Rand        | Als ein Besucher möchte ich die Möglichkeit haben, das Design der Seite zwischen einem hellen und einem dunklen Modus zu wechseln, damit die Seite angenehmer zu benutzen ist. | 1 Lektion                 |
 |14|muss|funktional|Als Benutzer möchte ich die Website auf Github publishen, damit andere meine Website sehen können.|2 Lektionen|
 |15|muss|funktional|Portfoliobeitrag|4 Lektionen|
+|16|muss|funktional|Tests durchführen|0.5 Lektion|
 
 
 ### 1.3 Testfälle
@@ -59,19 +60,20 @@ Mein Projekt ist eine Portfoliowebsite über mich, wo ich alles über mich aufze
 | ---- | ----- | --------- | ------------ | ------------- |
 | 1.A  | 04.09      | Mirhan Özden          | Startwebsite programmieren              | 2 Lektionen              |
 | 2.A  | 04.09      | Mirhan Özden          |  IT Projekte anzeigen lassen            |             3 Lektionen |
-|3.A|04.09|Mirhan Özden  |Portfoliolink|1 Lektionen|
-|4.A|11.09|Mirhan Özden  |Dokumentationslink|1 Lektionen|
+|3.A|04.09|Mirhan Özden  |Portfoliolink|1 Lektion|
+|4.A|11.09|Mirhan Özden  |Dokumentationslink|1 Lektion|
 |5.A|11.09|Mirhan Özden  |Bild und Video zu jedem Projekt hinzufügen|2 Lektionen|
 |6.A|11.09|Mirhan Özden  |Preview Funktion|3 Lektionen|
-|7.A|11.10|Mirhan Özden  |Social-Media Links|1 Lektionen|
+|7.A|11.10|Mirhan Özden  |Social-Media Links|1 Lektion|
 |8.A|11.10|Mirhan Özden  |Projektbeschreibung|2 Lektionen|
-|9.A|11.10|Mirhan Özden  |Navigationsleiste|1 Lektionen|
-|10.A|18.10|Mirhan Özden  |Feedback Möglichkeit|1 Lektionen|
+|9.A|11.10|Mirhan Özden  |Navigationsleiste|1 Lektion|
+|10.A|18.10|Mirhan Özden  |Feedback Möglichkeit|1 Lektion|
 |11.A|18.10|Mirhan Özden  |IDAF Projekte zeigen|2 Lektionen|
-|12.A|18.10|Mirhan Özden  |Animationen|1 Lektionen|
-|13.A|18.10|Mirhan Özden  |Hell/Dunkemodus|1 Lektionen|
+|12.A|18.10|Mirhan Özden  |Animationen|1 Lektion|
+|13.A|18.10|Mirhan Özden  |Hell/Dunkemodus|1 Lektion|
 |14.A|25.10|Mirhan Özden  |Website mit Github Pages veröffentlichen|2 Lektionen|
 |15.A|25.10.2024|Mirhan Özden  |Portfoliobeitrag machen|4 Lektionen|
+|16.A|25.10.2024|Mirhan Özden|Testfälle durchführen|0.5 Lektionen|
 
 
 
@@ -81,23 +83,24 @@ Mein Projekt ist eine Portfoliowebsite in html,css und javascript, wo ich mich p
 
 ## 4 Realisieren
 
-| AP-№ | Datum | Zuständig | geplante Zeit | tatsächliche Zeit |
+| AP-№ | Datum | Zuständig | geplante Zeit | tatsächliche Zeit  |
 | ---- | ----- | --------- | ------------- | ----------------- |
-| 1.A  |  04.09     |  Mirhan Özden         | 2               | 1                  |
-| 2.A  |  04.09     |  Mirhan Özden         | 3              | 3                  |
-|3.A|04.09|Mirhan Özden|1|2|
-|4.A|11.09|Mirhan Özden|1|1|
-|5.A|11.09|Mirhan Özden|2|2|
-|6.A|11.09|Mirhan Özden|3|2|
-|7.A|11.10|Mirhan Özden|1|2|
-|8.A|11.10|Mirhan Özden|2|2|
-|9.A|11.10|Mirhan Özden|1|2|
-|10.A|18.10|Mirhan Özden|1|1|
-|11.A|18.10|Mirhan Özden|2|2|
-|12.A|18.10|Mirhan Özden|1|2|
-|13.A|18.10|Mirhan Özden|1|1|
-|14.A|25.10|Mirhan Özden|2|2|
-|15.A|25.10|Mirhan Özden|4|4|
+| 1.A  |  04.09     |  Mirhan Özden         | 2  Lektionen             | 1 Lektion               |
+| 2.A  |  04.09     |  Mirhan Özden         | 3  Lektionen            | 3 Lektionen                 |
+|3.A|04.09|Mirhan Özden|1 Lektion|2 Lektionen|
+|4.A|11.09|Mirhan Özden|1 Lektion|1 Lektion|
+|5.A|11.09|Mirhan Özden|2 Lektionen|2 Lektionen|
+|6.A|11.09|Mirhan Özden|3 Lektionen|2 Lektionen|
+|7.A|11.10|Mirhan Özden|1 Lektion|2 Lektionen|
+|8.A|11.10|Mirhan Özden|2 Lektionen|2 Lektionen|
+|9.A|11.10|Mirhan Özden|1 Lektion|2 Lektionen|
+|10.A|18.10|Mirhan Özden|1 Lektion|1 Lektion|
+|11.A|18.10|Mirhan Özden|2 Lektionen|2 Lektionen|
+|12.A|18.10|Mirhan Özden|1|2 Lektionen|
+|13.A|18.10|Mirhan Özden|1 Lektion|1 Lektion|
+|14.A|25.10|Mirhan Özden|2 Lektionen|2 Lektionen|
+|15.A|25.10|Mirhan Özden|4 Lektionen|4 Lektionen|
+|16.A|25.10|Mirhan Özden|0.5|0.5
 
 
 
