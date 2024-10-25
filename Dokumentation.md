@@ -30,8 +30,8 @@ Mein Projekt ist eine Portfoliowebsite über mich, wo ich alles über mich aufze
 | 12   | Kann            | Qualität    | Als ein Besucher möchte ich Animationen sehen, damit die Seite professioneller und interaktiver wirkt. | 1 Lektion|
 | 13   | Kann            | Rand        | Als ein Besucher möchte ich die Möglichkeit haben, das Design der Seite zwischen einem hellen und einem dunklen Modus zu wechseln, damit die Seite angenehmer zu benutzen ist. | 1 Lektion                 |
 |14|muss|Funktional|Als Benutzer möchte ich die Website auf Github publishen, damit andere meine Website sehen können.|2 Lektionen|
-|15|muss|Funktional|Portfoliobeitrag|4 Lektionen|
-|16|muss|Funktional|Tests durchführen|0.5 Lektion|
+|15|muss|Funktional|Als Entwickler möchte ich einen Portfoliobeitrag erstellen, damit mein persönliches Lernen widerspiegelt wird|4 Lektionen|
+|16|muss|Funktional|Als Entwickler möchte ich Testfälle durchführen, damit ich weiss, ob mein Projekt funktionstüchtig und abgabebereit ist.|0.5 Lektion|
 
 
 ### 1.3 Testfälle
