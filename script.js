@@ -28,27 +28,42 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
-document.getElementById('contact-form').addEventListener('submit', function(e) {
-    e.preventDefault();
-    const name = document.getElementById('name').value;
-    const email = document.getElementById('email').value;
-    const message = document.getElementById('message').value;
 
-    document.getElementById('feedback').textContent = `Danke für Ihre Nachricht, ${name}. Ich werde mich bald bei Ihnen melden!`;
-    this.reset();
-});
+const form = document.getElementById('form');
+const result = document.getElementById('result');
 
-document.getElementById('contact-form').addEventListener('submit', function(e) {
-    e.preventDefault();
-    
-    // Sende das Formular an EmailJS
-    emailjs.sendForm('service_6yelz19', 'template_co9hwg9', this)
-    .then(function() {
-        document.getElementById('feedback').textContent = "E-Mail erfolgreich gesendet!";
-    }, function(error) {
-        document.getElementById('feedback').textContent = "E-Mail konnte nicht gesendet werden.";
-    });
+form.addEventListener('submit', function(e) {
+  e.preventDefault();
+  const formData = new FormData(form);
+  const object = Object.fromEntries(formData);
+  const json = JSON.stringify(object);
+  result.innerHTML = "Please wait..."
 
-    // Formular zurücksetzen
-    this.reset();
+    fetch('https://api.web3forms.com/submit', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+                'Accept': 'application/json'
+            },
+            body: json
+        })
+        .then(async (response) => {
+            let json = await response.json();
+            if (response.status == 200) {
+                result.innerHTML = "Form submitted successfully";
+            } else {
+                console.log(response);
+                result.innerHTML = json.message;
+            }
+        })
+        .catch(error => {
+            console.log(error);
+            result.innerHTML = "Something went wrong!";
+        })
+        .then(function() {
+            form.reset();
+            setTimeout(() => {
+                result.style.display = "none";
+            }, 3000);
+        });
 });

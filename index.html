@@ -66,16 +66,17 @@
     <!-- Kontakt -->
     <section id="contact">
         <h2>Kontaktieren Sie mich</h2>
-        <form id="contact-form">
+        <form action="https://api.web3forms.com/submit" method="POST">
             <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
+            <input type="hidden" id="name" name="access_key" value= "49f25d77-2f18-42b8-8f4a-6f8122b6ce4b" required>
+            <input type="text" name="name" required>
             <label for="email">E-Mail:</label>
             <input type="email" id="email" name="email" required>
             <label for="message">Nachricht:</label>
             <textarea id="message" name="message" required></textarea>
             <button type="submit">Absenden</button>
         </form>
-        <div id="feedback"></div>
+        <div id="result"></div>
     </section>
 
     <footer>
