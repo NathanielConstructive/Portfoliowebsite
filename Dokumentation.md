@@ -4,9 +4,7 @@ Mirhan Özden
 
 | Datum | Version | Zusammenfassung                                              |
 | ----- | ------- | ------------------------------------------------------------ |
-|       | 0.0.1   | ✍️ Jedes Mal, wenn Sie an dem Projekt arbeiten, fügen Sie hier eine neue Zeile ein und beschreiben in *einem* Satz, was Sie erreicht haben. |
-|       | ...     |                                                              |
-|       | 1.0.0   |                                                              |
+| 25.10      | 1.0.0   |   Fertigversion der Porftoliowebsite                                                           |
 
 ## 1 Informieren
 
@@ -59,21 +57,21 @@ Mein Projekt ist eine Portfoliowebsite über mich, wo ich alles über mich aufze
 
 | AP-№ | Frist | Zuständig | Beschreibung | geplante Zeit |
 | ---- | ----- | --------- | ------------ | ------------- |
-| 1.A  |       | Mirhan Özden          | Startwebsite programmieren              | 2 Lektionen              |
-| 2.A  |       |           |              |             3  |
-|3.A||Mirhan Özden  ||1|
-|4.A||Mirhan Özden  ||1|
-|5.A||Mirhan Özden  ||2|
-|6.A||Mirhan Özden  ||3|
-|7.A||Mirhan Özden  ||1|
-|8.A||Mirhan Özden  ||2|
-|9.A||Mirhan Özden  ||1|
-|10.A||Mirhan Özden  ||1|
-|11.A||Mirhan Özden  ||2|
-|12.A||Mirhan Özden  ||1|
-|13.A||Mirhan Özden  ||1|
-|14.A||Mirhan Özden  |Website mit Github Pages veröffentlichen|2|
-|15.A|25.10.2024|Mirhan Özden  |Portfoliobeitrag machen|4|
+| 1.A  | 04.09      | Mirhan Özden          | Startwebsite programmieren              | 2 Lektionen              |
+| 2.A  | 04.09      | Mirhan Özden          |  IT Projekte anzeigen lassen            |             3 Lektionen |
+|3.A|04.09|Mirhan Özden  |Portfoliolink|1 Lektionen|
+|4.A|11.09|Mirhan Özden  |Dokumentationslink|1 Lektionen|
+|5.A|11.09|Mirhan Özden  |Bild und Video zu jedem Projekt hinzufügen|2 Lektionen|
+|6.A|11.09|Mirhan Özden  |Preview Funktion|3 Lektionen|
+|7.A|11.10|Mirhan Özden  |Social-Media Links|1 Lektionen|
+|8.A|11.10|Mirhan Özden  |Projektbeschreibung|2 Lektionen|
+|9.A|11.10|Mirhan Özden  |Navigationsleiste|1 Lektionen|
+|10.A|18.10|Mirhan Özden  |Feedback Möglichkeit|1 Lektionen|
+|11.A|18.10|Mirhan Özden  |IDAF Projekte zeigen|2 Lektionen|
+|12.A|18.10|Mirhan Özden  |Animationen|1 Lektionen|
+|13.A|18.10|Mirhan Özden  |Hell/Dunkemodus|1 Lektionen|
+|14.A|25.10|Mirhan Özden  |Website mit Github Pages veröffentlichen|2 Lektionen|
+|15.A|25.10.2024|Mirhan Özden  |Portfoliobeitrag machen|4 Lektionen|
 
 
 
@@ -85,21 +83,21 @@ Mein Projekt ist eine Portfoliowebsite in html,css und javascript, wo ich mich p
 
 | AP-№ | Datum | Zuständig | geplante Zeit | tatsächliche Zeit |
 | ---- | ----- | --------- | ------------- | ----------------- |
-| 1.A  |       |  Mirhan Özden         |               |                   |
-| 2.A  |       |  Mirhan Özden         |               |                   |
-|3.A||Mirhan Özden|||
-|4.A||Mirhan Özden|||
-|5.A||Mirhan Özden|||
-|6.A||Mirhan Özden|||
-|7.A||Mirhan Özden|||
-|8.A||Mirhan Özden|||
-|9.A||Mirhan Özden|||
-|10.A||Mirhan Özden|||
-|11.A||Mirhan Özden|||
-|12.A||Mirhan Özden|||
-|13.A||Mirhan Özden|||
-|14.A||Mirhan Özden|||
-|15.A||Mirhan Özden|||
+| 1.A  |  04.09     |  Mirhan Özden         | 2               | 1                  |
+| 2.A  |  04.09     |  Mirhan Özden         | 3              | 3                  |
+|3.A|04.09|Mirhan Özden|1|2|
+|4.A|11.09|Mirhan Özden|1|1|
+|5.A|11.09|Mirhan Özden|2|2|
+|6.A|11.09|Mirhan Özden|3|2|
+|7.A|11.10|Mirhan Özden|1|2|
+|8.A|11.10|Mirhan Özden|2|2|
+|9.A|11.10|Mirhan Özden|1|2|
+|10.A|18.10|Mirhan Özden|1|1|
+|11.A|18.10|Mirhan Özden|2|2|
+|12.A|18.10|Mirhan Özden|1|2|
+|13.A|18.10|Mirhan Özden|1|1|
+|14.A|25.10|Mirhan Özden|2|2|
+|15.A|25.10|Mirhan Özden|4|4|
 
 
 
