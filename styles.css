@@ -12,7 +12,7 @@ img, video {
     max-width: 150px;
     border: 1px solid #ddd;
     border-radius: 4px;
-    transition: opacity 0.3s ease;
+    transition: opacity 0.3s ease, transform 0.3s ease;
 }
 
 nav {
@@ -41,19 +41,8 @@ section {
     padding: 2em;
 }
 
-/* Zentriere den Text im Home-Bereich */
-#home {
-    text-align: center; /* Text zentrieren */
-}
-
-/* Zentriere den Text im Kontaktbereich */
-#contact {
-    text-align: center; /* Text zentrieren */
-}
-
-/* Zentriere den Text im Footer */
-footer {
-    text-align: center; /* Text zentrieren */
+#home, #contact, footer {
+    text-align: center;
 }
 
 #portfolio {
@@ -72,8 +61,12 @@ footer {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     flex-basis: 30%;
     box-sizing: border-box;
-    position: relative; /* Wichtig für die Positionierung des Videos */
-    overflow: hidden; /* Verhindert, dass das Video außerhalb des Projekts sichtbar ist */
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
 
 .project:hover {
@@ -89,37 +82,47 @@ footer {
     margin-bottom: 1.2em;
 }
 
-.project video {
-    position: absolute; /* Video ist absolut positioniert innerhalb des Containers */
-    top: 0; /* Video beginnt oben */
-    left: 0; /* Video beginnt links */
-    width: 100%; /* Video nimmt 100% der Breite des Containers ein */
-    height: 100%; /* Video nimmt 100% der Höhe des Containers ein */
-    object-fit: cover; /* Video füllt den Container aus, ohne das Seitenverhältnis zu verzerren */
-    opacity: 0; /* Unsichtbar zu Beginn */
-    pointer-events: none; /* Damit das Video nicht den Hover-Trigger blockiert */
-    transition: opacity 0.3s ease; /* Sanfter Übergang für Opazität */
-}
-
-.project img {
+/* Video und Bild: gleiche Größe und Position */
+.project img, .project video {
+    width: 100%;
+    max-width: 150px;
+    height: auto;
     transition: opacity 0.3s ease;
-    width: 100%; /* Bild nimmt 100% der Breite des Containers ein */
-    height: auto; /* Höhe automatisch, um das Seitenverhältnis zu wahren */
 }
 
-/* Verhindert das Abschneiden des Videos */
+.project video {
+    display: none;
+}
+
 .project:hover img {
-    opacity: 0; /* Verblende das Bild */
+    display: none;
 }
 
 .project:hover video {
-    opacity: 1; /* Zeige das Video beim Hover */
+    display: block;
+    transform: scale(1.3);
+}
+
+/* Layout-Anpassung für Bild/Video, Text und Links */
+/* Layout-Anpassung für Bild/Video, Text und Links */
+.project-content {
+    display: flex;
+    width: 100%;
+    flex-direction: column; /* Bild/Video und Links übereinander */
+    align-items: center;
+    gap: 1em;
+}
+
+.project-details {
+    text-align: center;
+    flex: 1;
 }
 
 .project-links {
     display: flex;
-    justify-content: space-between;
-    margin-top: 1em;
+    flex-direction: column;
+    gap: 0.5em;
+    margin-top: 1em; /* Abstand nach oben, um die Links unter dem Bild/Video anzuordnen */
 }
 
 .project-links a {
@@ -135,6 +138,7 @@ footer {
     background-color: #007a67;
 }
 
+
 /* Dunkelmodus */
 body[data-theme="dark"] {
     background-color: #121212;
@@ -145,8 +149,7 @@ nav[data-theme="dark"] {
     background-color: #333;
 }
 
-#home[data-theme="dark"],
-#contact[data-theme="dark"] {
+#home[data-theme="dark"], #contact[data-theme="dark"] {
     background-color: #1e1e1e;
 }
 
