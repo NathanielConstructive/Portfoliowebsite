@@ -96,7 +96,7 @@ Mein Projekt ist eine Portfoliowebsite in HTML, CSS und JavaScript, wo ich mich 
 |9.A|11.10|Mirhan Özden|1 Lektion|2 Lektionen|
 |10.A|18.10|Mirhan Özden|1 Lektion|1 Lektion|
 |11.A|18.10|Mirhan Özden|2 Lektionen|2 Lektionen|
-|12.A|18.10|Mirhan Özden|1|2 Lektionen|
+|12.A|18.10|Mirhan Özden|1 Lektion|2 Lektionen|
 |13.A|18.10|Mirhan Özden|1 Lektion|1 Lektion|
 |14.A|25.10|Mirhan Özden|2 Lektionen|2 Lektionen|
 |15.A|25.10|Mirhan Özden|4 Lektionen|4 Lektionen|
