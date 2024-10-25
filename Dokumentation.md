@@ -4,15 +4,13 @@ Mirhan Özden
 
 | Datum | Version | Zusammenfassung                                              |
 | ----- | ------- | ------------------------------------------------------------ |
-|       | 0.0.1   | ✍️ Jedes Mal, wenn Sie an dem Projekt arbeiten, fügen Sie hier eine neue Zeile ein und beschreiben in *einem* Satz, was Sie erreicht haben. |
-|       | ...     |                                                              |
-|       | 1.0.0   |                                                              |
+| 25.10      | 1.0.0   |   Fertigversion der Porftoliowebsite                                                           |
 
 ## 1 Informieren
 
 ### 1.1 Ihr Projekt
 
-Mein Projekt ist eine Portfoliowebsite über mich, wo ich alles über mich aufzeige.
+Mein Projekt ist eine Portfoliowebsite über mich, wo ich alles über mich aufzeige im Bereich IT aber auch ausserhalb der Informatik. Dieses Projekt sollte für die Praktikumssuche helfen.
 
 ### 1.2 User Stories
 
@@ -20,70 +18,112 @@ Mein Projekt ist eine Portfoliowebsite über mich, wo ich alles über mich aufze
 | ---- | --------------- | ----------- | --------------------------------------------------------------- | ------------------------- |
 | 1    | Muss            | Funktional  | Als ein Besucher möchte ich die Startseite sehen, damit ich sofort einen Überblick über die Website-Inhalte bekomme. | 2 Lektionen               |
 | 2    | Muss            | Funktional  | Als ein Besucher möchte ich ein Portfolio mit Projekten sehen, damit ich mehr über die Fähigkeiten des Websiten-Besitzers erfahre. | 3 Lektionen               |
-| 4    | Muss            | Funktional  | Als ein Besucher möchte ich eine Kontaktseite sehen, damit ich den Websiten-Besitzer direkt kontaktieren kann. | 2 Lektionen               |
-| 5    | Kann            | Rand        | Als ein Besucher möchte ich Social-Media-Links sehen, damit ich dem Websiten-Besitzer auf anderen Plattformen folgen kann. | 1 Lektion                 |
-| 6    | Muss            | Funktional  | Als ein Besucher möchte ich die Möglichkeit haben, eine Projektbeschreibung zu jedem Projekt im Portfolio zu sehen, damit ich mehr Details erfahre. | 2 Lektionen               |
-| 7    | Kann            | Qualität    | Als ein Besucher möchte ich eine Suchfunktion auf der Website haben, damit ich spezifische Projekte schnell finden kann. | 2 Lektionen               |
-| 8    | Muss            | Funktional  | Als ein Besucher möchte ich eine übersichtliche Navigationsleiste sehen, damit ich schnell zwischen den Seiten wechseln kann. | 1 Lektion                 |
-| 9    | Kann            | Rand        | Als ein Besucher möchte ich eine Feedback-Möglichkeit auf der Kontaktseite haben, damit ich sofort Rückmeldungen geben kann. | 1 Lektion                 |
-| 10   | Kann            | Qualität    | Als ein Besucher möchte ich animierte Übergänge zwischen den Seiten haben, damit die Benutzererfahrung flüssiger und ansprechender wird. | 1 Lektion                 |
-| 11   | Muss            | Funktional  | Als ein Besucher möchte ich jedes Projekt auf einer eigenen Detailseite sehen können, damit ich vollständige Informationen dazu erhalte. | 2 Lektionen               |
-| 12   | Kann            | Rand        | Als ein Besucher möchte ich eine "Über mich"-Seite sehen, damit ich mehr über den Websiten-Besitzer erfahren kann. | 1 Lektion                 |
-| 13   | Muss            | Funktional  | Als ein Besucher möchte ich eine Funktion haben, um Projekte nach Kategorien zu filtern, damit ich schnell die Projekte finde, die mich interessieren. | 2 Lektionen               |
-| 14   | Kann            | Qualität    | Als ein Besucher möchte ich Ladeanimationen sehen, damit die Seite professioneller und interaktiver wirkt. | 1 Lektion                 |
-| 15   | Kann            | Rand        | Als ein Besucher möchte ich eine Blog-Sektion sehen, damit ich mehr über die Denkweise und Ansichten des Websiten-Besitzers erfahre. | 2 Lektionen               |
-| 16   | Muss            | Funktional  | Als ein Besucher möchte ich, dass die Website barrierefrei ist, damit sie für alle Nutzer zugänglich ist. | 2 Lektionen               |
-| 17   | Kann            | Rand        | Als ein Besucher möchte ich die Möglichkeit haben, das Design der Seite zwischen einem hellen und einem dunklen Modus zu wechseln, damit die Seite angenehmer zu benutzen ist. | 1 Lektion                 |
-|18|muss|funktional|Als Benutzer möchte ich die Website auf Github publishen, damit andere meine Website sehen können.|
+|3|muss|qualität|Als Benutzer möchte ich zu jedem Projekt den Portfoliobeitrag sehen, damit ich lesen kann, wie er gearbeitet hat.|1 Lektion|
+|4|muss|Qualität|Als Benutzer möchte ich zu jedem Projekt die Dokumentation sehen, damit ich weiss, was für Anforderungen sein Projekt hatte und was er erreichen konnte.|1 Lektion|
+|5|kann|Qualität|Als Benutzer möchte ich zu jedem Projekt ein Bild und ein Video sehen, damit ich schon im Vorhinein weiss, wie das Produkt aussieht.|2 Lektionen|
+|6|kann|Qualität|Als Benutzer möchte ich normalerweise das Bild eines Projektes sehen, wenn ich aber mit der Maus darüber hovere, möchte ich das Video sehen, damit ich direkt sehe, ob das Produkt funktioniert|3 Lektionen|
+| 7    | Kann            | Rand        | Als ein Besucher möchte ich Social-Media-Links sehen, damit ich dem Websiten-Besitzer auf anderen Plattformen folgen kann. | 1 Lektion                 |
+| 8    | Muss            | Funktional  | Als ein Besucher möchte ich die Möglichkeit haben, eine Projektbeschreibung zu jedem Projekt im Portfolio zu sehen, damit ich mehr Details erfahre. | 2 Lektionen               |
+| 9    | Muss            | Funktional  | Als ein Besucher möchte ich eine übersichtliche Navigationsleiste sehen, damit ich schnell zwischen den Seiten wechseln kann. | 1 Lektion                 |
+|10    | Kann            | Rand        | Als ein Besucher möchte ich eine Feedback-Möglichkeit auf der Kontaktseite haben, damit ich sofort Rückmeldungen geben kann. | 1 Lektion                 |
+|11|kann|Qualität|Als Benutzer möchte ich, dass ich auf einer separaten Website auch Projekte über andere Themen sehe, damit man weiss, was der Informatiker ausserhalb von IT schon gemacht hat.|2 Lektionen|
+| 12   | Kann            | Qualität    | Als ein Besucher möchte ich Animationen sehen, damit die Seite professioneller und interaktiver wirkt. | 1 Lektion|
+| 13   | Kann            | Rand        | Als ein Besucher möchte ich die Möglichkeit haben, das Design der Seite zwischen einem hellen und einem dunklen Modus zu wechseln, damit die Seite angenehmer zu benutzen ist. | 1 Lektion                 |
+|14|muss|funktional|Als Benutzer möchte ich die Website auf Github publishen, damit andere meine Website sehen können.|2 Lektionen|
+|15|muss|funktional|Portfoliobeitrag|4 Lektionen|
+|16|muss|funktional|Tests durchführen|0.5 Lektion|
 
-✍️ Jede User Story hat eine ganzzahlige Nummer (1, 2, 3 etc.), eine Verbindlichkeit (Muss oder Kann?), und einen Typ (Funktional, Qualität, Rand). Die User Story selber hat folgende Form: *Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️*.
 
 ### 1.3 Testfälle
 
 | TC-№ | Ausgangslage | Eingabe | Erwartete Ausgabe |
 | ---- | ------------ | ------- | ----------------- |
-| 1.1  |              |         |                   |
-| ...  |              |         |                   |
+| 1.1  | Die Website ist geöffnet             |  -       | Die Startwebsite                  |
+|2.1|Website hat geladen und ist geöffnet|-|IT Projekte|
+|3.1|Projekte sind vorhanden|-|Link zum Portfoliobeitrag|
+|4.1|Projekte sind vorhanden|-|Link zur Dokumentation|
+|5.1|Projekt mit Bild und Video ist vorhanden|-|Bild|
+|6.1|Projekt mit Bild|-(auf das Bild hovern)|Video wird angezeigt|
+|7.1|Website ist geladen|Auf eines der beiden Links klicken|Twitter oder LinkedIn account|
+|8.1|Website mit Projekt ist geladen|-|Zu jedem Projekt eine kleine Beschreibung, was das Projekt ist.|
+|9.1|Website ist geladen|-|Links beim Nav, damit man von Seite zu Seite springen kann.|
+|10.1|Website ist geladen|Auf "contact" klicken, das Feedbackformular ausfüllen und auf absenden drücken|Eine Seite von Web3Forms wo steht, dass das Feedback weitergeleitet wurde. |
+|11.1|Website ist geladen|Auf "IDAF Projekte" klicken|Projekte ausserhalb der IT.|
+|12.1|Website ist geladen|-(Auf Projekt hovern)|Das Projekt wird hervorgehoben|
+|13.1|Website ist geladen|Auf den Knopf neben der Sonne und dem Mond klicken|Webseite geht in den Dunkel oder Hellmodus.|
+|14.1|Man drückt auf den Link für die Website|-|Man sieht die Startseite|
 
-✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, die der Testfall abdeckt, und `m` von `1` an nach oben gezählt. Beispiel: Der dritte Testfall, der die zweite User Story abdeckt, hat also die Nummer `2.3`.
-
-### 1.4 Diagramme
-
-✍️ Hier können Sie PAPs, Use Case- und Gantt-Diagramme oder Ähnliches einfügen.
 
 ## 2 Planen
 
 | AP-№ | Frist | Zuständig | Beschreibung | geplante Zeit |
 | ---- | ----- | --------- | ------------ | ------------- |
-| 1.A  |       |           |              |               |
-| ...  |       |           |              |               |
+| 1.A  | 04.09      | Mirhan Özden          | Startwebsite programmieren              | 2 Lektionen              |
+| 2.A  | 04.09      | Mirhan Özden          |  IT Projekte anzeigen lassen            |             3 Lektionen |
+|3.A|04.09|Mirhan Özden  |Portfoliolink|1 Lektion|
+|4.A|11.09|Mirhan Özden  |Dokumentationslink|1 Lektion|
+|5.A|11.09|Mirhan Özden  |Bild und Video zu jedem Projekt hinzufügen|2 Lektionen|
+|6.A|11.09|Mirhan Özden  |Preview Funktion|3 Lektionen|
+|7.A|11.10|Mirhan Özden  |Social-Media Links|1 Lektion|
+|8.A|11.10|Mirhan Özden  |Projektbeschreibung|2 Lektionen|
+|9.A|11.10|Mirhan Özden  |Navigationsleiste|1 Lektion|
+|10.A|18.10|Mirhan Özden  |Feedback Möglichkeit|1 Lektion|
+|11.A|18.10|Mirhan Özden  |IDAF Projekte zeigen|2 Lektionen|
+|12.A|18.10|Mirhan Özden  |Animationen|1 Lektion|
+|13.A|18.10|Mirhan Özden  |Hell/Dunkemodus|1 Lektion|
+|14.A|25.10|Mirhan Özden  |Website mit Github Pages veröffentlichen|2 Lektionen|
+|15.A|25.10.2024|Mirhan Özden  |Portfoliobeitrag machen|4 Lektionen|
+|16.A|25.10.2024|Mirhan Özden|Testfälle durchführen|0.5 Lektionen|
 
-Total: 
 
-✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, auf die sich das Arbeitspaket bezieht, und `m` von `A` an nach oben buchstabiert. Beispiel: Das dritte Arbeitspaket, das die zweite User Story betrifft, hat also die Nummer `2.C`.
-
-✍️ Ein Arbeitspaket sollte etwa 45' für eine Person in Anspruch nehmen. Die totale Anzahl Arbeitspakete sollte etwa Folgendem entsprechen: `Anzahl R-Sitzungen` ╳ `Anzahl Gruppenmitglieder` ╳ `4`. Wenn Sie also zu dritt an einem Projekt arbeiten, für welches zwei R-Sitzungen geplant sind, sollten Sie auf `2` ╳ `3` ╳`4` = `24` Arbeitspakete kommen. Sollten Sie merken, dass Sie hier nicht genügend Arbeitspakte haben, denken Sie sich weitere "Kann"-User Stories für Kapitel 1.2 aus.
 
 ## 3 Entscheiden
 
-Mein Projekt ist eine Portfoliowebsite in html,css und javascript, wo ich mich präsentiere für zukünftige Arbeitsgeber. Dabei zeige ich meine Projekte, Dokumentationen und Informationen über mich.
+Mein Projekt ist eine Portfoliowebsite in html,css und javascript, wo ich mich präsentiere für zukünftige Arbeitsgeber. Dabei zeige ich meine Projekte, Dokumentationen und Informationen über mich. Auch habe ich mich entschieden, zwei Unterseiten abseits der Haupseite zu machen. Auf der Hauptseite sieht man meine IT Projekte und wie man mich erreichen kann. Wenn man meine Projekte sieht, kann man dort entweder meine Dokumentation zum Projekt lesen oder meinen Portfoliobeitrag dazu. Man kann mir auch einen Feedback geben, indem man oben auf contact drückt. Dort kann man mir eine Email mit einem Text senden. Auch habe ich mich entschieden, meine IDAF Projekte zu zeigen, die man auf einer separaten Website sehen kann.
 
 ## 4 Realisieren
 
-| AP-№ | Datum | Zuständig | geplante Zeit | tatsächliche Zeit |
+| AP-№ | Datum | Zuständig | geplante Zeit | tatsächliche Zeit  |
 | ---- | ----- | --------- | ------------- | ----------------- |
-| 1.A  |       |           |               |                   |
-| ...  |       |           |               |                   |
+| 1.A  |  04.09     |  Mirhan Özden         | 2  Lektionen             | 1 Lektion               |
+| 2.A  |  04.09     |  Mirhan Özden         | 3  Lektionen            | 3 Lektionen                 |
+|3.A|04.09|Mirhan Özden|1 Lektion|2 Lektionen|
+|4.A|11.09|Mirhan Özden|1 Lektion|1 Lektion|
+|5.A|11.09|Mirhan Özden|2 Lektionen|2 Lektionen|
+|6.A|11.09|Mirhan Özden|3 Lektionen|2 Lektionen|
+|7.A|11.10|Mirhan Özden|1 Lektion|2 Lektionen|
+|8.A|11.10|Mirhan Özden|2 Lektionen|2 Lektionen|
+|9.A|11.10|Mirhan Özden|1 Lektion|2 Lektionen|
+|10.A|18.10|Mirhan Özden|1 Lektion|1 Lektion|
+|11.A|18.10|Mirhan Özden|2 Lektionen|2 Lektionen|
+|12.A|18.10|Mirhan Özden|1|2 Lektionen|
+|13.A|18.10|Mirhan Özden|1 Lektion|1 Lektion|
+|14.A|25.10|Mirhan Özden|2 Lektionen|2 Lektionen|
+|15.A|25.10|Mirhan Özden|4 Lektionen|4 Lektionen|
+|16.A|25.10|Mirhan Özden|0.5|0.5
 
 
 
-## 5 Kontrollieren
 
-### 5.1 Testprotokoll
+
+## 5 Auswerten
 
 | TC-№ | Datum | Resultat | Tester |
 | ---- | ----- | -------- | ------ |
-| 1.1  |       |          |        |
-| ...  |       |          |        |
+| 1.1  | 25.10.2024      | Funktioniert         | Mirhan Özden       |
+| 2.1  | 25.10.2024      |  Funktioniert        |   Mirhan Özden       |
+|3.1|25.10.2024|Funktioniert|Mirhan Özden|
+|4.1|25.10.2024|Funktioniert|Mirhan Özden|
+|5.1|25.10.2024|Funktioniert|Mirhan Özden|
+|6.1|25.10.2024|Funktioniert|Mirhan Özden|
+|7.1|25.10.2024|Funktioniert|Mirhan Özden|
+|8.1|25.10.2024|Funktioniert|Mirhan Özden|
+|9.1|25.10.2024|Funktioniert|Mirhan Özden|
+|10.1|25.10.2024|Funktioniert|Mirhan Özden|
+|11.1|25.10.2024|Funktioniert|Mirhan Özden|
+|12.1|25.10.2024|Funktioniert|Mirhan Özden|
+|13.1|25.10.2024|Funktioniert|Mirhan Özden|
+|14.1|25.10.2024|Funktioniert|Mirhan Özden|
 
 Fazit:
+Alle Tests waren erfolreich
