@@ -36,7 +36,6 @@ Mein Projekt ist eine Portfoliowebsite über mich, wo ich alles über mich aufze
 | 17   | Kann            | Rand        | Als ein Besucher möchte ich die Möglichkeit haben, das Design der Seite zwischen einem hellen und einem dunklen Modus zu wechseln, damit die Seite angenehmer zu benutzen ist. | 1 Lektion                 |
 |18|muss|funktional|Als Benutzer möchte ich die Website auf Github publishen, damit andere meine Website sehen können.|
 
-✍️ Jede User Story hat eine ganzzahlige Nummer (1, 2, 3 etc.), eine Verbindlichkeit (Muss oder Kann?), und einen Typ (Funktional, Qualität, Rand). Die User Story selber hat folgende Form: *Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️*.
 
 ### 1.3 Testfälle
 
@@ -45,11 +44,7 @@ Mein Projekt ist eine Portfoliowebsite über mich, wo ich alles über mich aufze
 | 1.1  |              |         |                   |
 | ...  |              |         |                   |
 
-✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, die der Testfall abdeckt, und `m` von `1` an nach oben gezählt. Beispiel: Der dritte Testfall, der die zweite User Story abdeckt, hat also die Nummer `2.3`.
 
-### 1.4 Diagramme
-
-✍️ Hier können Sie PAPs, Use Case- und Gantt-Diagramme oder Ähnliches einfügen.
 
 ## 2 Planen
 
@@ -60,13 +55,11 @@ Mein Projekt ist eine Portfoliowebsite über mich, wo ich alles über mich aufze
 
 Total: 
 
-✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, auf die sich das Arbeitspaket bezieht, und `m` von `A` an nach oben buchstabiert. Beispiel: Das dritte Arbeitspaket, das die zweite User Story betrifft, hat also die Nummer `2.C`.
 
-✍️ Ein Arbeitspaket sollte etwa 45' für eine Person in Anspruch nehmen. Die totale Anzahl Arbeitspakete sollte etwa Folgendem entsprechen: `Anzahl R-Sitzungen` ╳ `Anzahl Gruppenmitglieder` ╳ `4`. Wenn Sie also zu dritt an einem Projekt arbeiten, für welches zwei R-Sitzungen geplant sind, sollten Sie auf `2` ╳ `3` ╳`4` = `24` Arbeitspakete kommen. Sollten Sie merken, dass Sie hier nicht genügend Arbeitspakte haben, denken Sie sich weitere "Kann"-User Stories für Kapitel 1.2 aus.
 
 ## 3 Entscheiden
 
-Mein Projekt ist eine Portfoliowebsite in html,css und javascript, wo ich mich präsentiere für zukünftige Arbeitsgeber. Dabei zeige ich meine Projekte, Dokumentationen und Informationen über mich.
+Mein Projekt ist eine Portfoliowebsite in html,css und javascript, wo ich mich präsentiere für zukünftige Arbeitsgeber. Dabei zeige ich meine Projekte, Dokumentationen und Informationen über mich. Auch habe ich mich entschieden, zwei Unterseiten abseits der Haupseite zu machen. Auf der Hauptseite sieht man meine IT Projekte und wie man mich erreichen kann. Wenn man meine Projekte sieht, kann man dort entweder meine Dokumentation zum Projekt lesen oder meinen Portfoliobeitrag dazu. Man kann mir auch einen Feedback geben, indem man oben auf contact drückt. Dort kann man mir eine Email mit einem Text senden. Auch habe ich mich entschieden, meine IDAF Projekte zu zeigen, die man auf einer separaten Website sehen kann.
 
 ## 4 Realisieren
 
@@ -77,9 +70,7 @@ Mein Projekt ist eine Portfoliowebsite in html,css und javascript, wo ich mich p
 
 
 
-## 5 Kontrollieren
 
-### 5.1 Testprotokoll
 
 | TC-№ | Datum | Resultat | Tester |
 | ---- | ----- | -------- | ------ |
