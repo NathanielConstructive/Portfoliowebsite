@@ -18,7 +18,7 @@ Mein Projekt ist eine Portfoliowebsite über mich, wo ich alles über mich aufze
 | ---- | --------------- | ----------- | --------------------------------------------------------------- | ------------------------- |
 | 1    | Muss            | Funktional  | Als ein Besucher möchte ich die Startseite sehen, damit ich sofort einen Überblick über die Website-Inhalte bekomme. | 2 Lektionen               |
 | 2    | Muss            | Funktional  | Als ein Besucher möchte ich ein Portfolio mit Projekten sehen, damit ich mehr über die Fähigkeiten des Websiten-Besitzers erfahre. | 3 Lektionen               |
-|3|muss|qualität|Als Benutzer möchte ich zu jedem Projekt den Portfoliobeitrag sehen, damit ich lesen kann, wie er gearbeitet hat.|1 Lektion|
+|3|muss|Qualität|Als Benutzer möchte ich zu jedem Projekt den Portfoliobeitrag sehen, damit ich lesen kann, wie er gearbeitet hat.|1 Lektion|
 |4|muss|Qualität|Als Benutzer möchte ich zu jedem Projekt die Dokumentation sehen, damit ich weiss, was für Anforderungen sein Projekt hatte und was er erreichen konnte.|1 Lektion|
 |5|kann|Qualität|Als Benutzer möchte ich zu jedem Projekt ein Bild und ein Video sehen, damit ich schon im Vorhinein weiss, wie das Produkt aussieht.|2 Lektionen|
 |6|kann|Qualität|Als Benutzer möchte ich normalerweise das Bild eines Projektes sehen, wenn ich aber mit der Maus darüber hovere, möchte ich das Video sehen, damit ich direkt sehe, ob das Produkt funktioniert|3 Lektionen|
@@ -29,9 +29,9 @@ Mein Projekt ist eine Portfoliowebsite über mich, wo ich alles über mich aufze
 |11|kann|Qualität|Als Benutzer möchte ich, dass ich auf einer separaten Website auch Projekte über andere Themen sehe, damit man weiss, was der Informatiker ausserhalb von IT schon gemacht hat.|2 Lektionen|
 | 12   | Kann            | Qualität    | Als ein Besucher möchte ich Animationen sehen, damit die Seite professioneller und interaktiver wirkt. | 1 Lektion|
 | 13   | Kann            | Rand        | Als ein Besucher möchte ich die Möglichkeit haben, das Design der Seite zwischen einem hellen und einem dunklen Modus zu wechseln, damit die Seite angenehmer zu benutzen ist. | 1 Lektion                 |
-|14|muss|funktional|Als Benutzer möchte ich die Website auf Github publishen, damit andere meine Website sehen können.|2 Lektionen|
-|15|muss|funktional|Portfoliobeitrag|4 Lektionen|
-|16|muss|funktional|Tests durchführen|0.5 Lektion|
+|14|muss|Funktional|Als Benutzer möchte ich die Website auf Github publishen, damit andere meine Website sehen können.|2 Lektionen|
+|15|muss|Funktional|Portfoliobeitrag|4 Lektionen|
+|16|muss|Funktional|Tests durchführen|0.5 Lektion|
 
 
 ### 1.3 Testfälle
