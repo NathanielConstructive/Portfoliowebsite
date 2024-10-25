@@ -29,42 +29,42 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 });
 
 
-const form = document.getElementById('form');
-const result = document.getElementById('result');
+const form = document.getElementById('form'); // Das Formular-Element auswählen
+const result = document.getElementById('result'); // Das Ergebnis-Element auswählen
 
 form.addEventListener('submit', function(e) {
-  e.preventDefault();
-  const formData = new FormData(form);
-  const object = Object.fromEntries(formData);
-  const json = JSON.stringify(object);
-  result.innerHTML = "Please wait..."
+  e.preventDefault(); // Standardverhalten des Formulars verhindern
+  const formData = new FormData(form); // Formulardaten erfassen
+  const object = Object.fromEntries(formData); // Formulardaten in ein Objekt umwandeln
+  const json = JSON.stringify(object); // Objekt in JSON umwandeln
+  result.innerHTML = "Please wait..."; // Benutzer über den Fortschritt informieren
 
-    fetch('https://api.web3forms.com/submit', {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json',
-                'Accept': 'application/json'
-            },
-            body: json
-        })
-        .then(async (response) => {
-            let json = await response.json();
-            if (response.status == 200) {
-                result.innerHTML = "Form submitted successfully";
-            } else {
-                console.log(response);
-                result.innerHTML = json.message;
-            }
-        })
-        .catch(error => {
-            console.log(error);
-            result.innerHTML = "Something went wrong!";
-        })
-        .then(function() {
-            form.reset();
-            setTimeout(() => {
-                result.style.display = "none";
-            }, 3000);
-        });
+  fetch('https://api.web3forms.com/submit', { // Daten an die API senden
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json', // JSON-Typ für die Anfrage
+      'Accept': 'application/json' // Erwartete Antwort im JSON-Format
+    },
+    body: json // JSON-Daten im Anfragekörper
+  })
+  .then(async (response) => {
+    let json = await response.json(); // Antwort als JSON parsen
+    if (response.status == 200) {
+      result.innerHTML = "Form submitted successfully"; // Erfolgreiche Übermittlung
+    } else {
+      console.log(response); // Fehlerdetails im Konsolenprotokoll
+      result.innerHTML = json.message; // Fehlermeldung anzeigen
+    }
+  })
+  .catch(error => {
+    console.log(error); // Fehler im Konsolenprotokoll
+    result.innerHTML = "Something went wrong!"; // Allgemeine Fehlermeldung anzeigen
+  })
+  .then(function() {
+    form.reset(); // Formular zurücksetzen
+    setTimeout(() => {
+      result.style.display = "none"; // Ergebnis nach 3 Sekunden ausblenden
+    }, 3000);
+  });
 });
 
