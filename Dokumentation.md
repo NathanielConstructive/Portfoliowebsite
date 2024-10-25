@@ -79,7 +79,7 @@ Mein Projekt ist eine Portfoliowebsite über mich, wo ich alles über mich aufze
 
 ## 3 Entscheiden
 
-Mein Projekt ist eine Portfoliowebsite in html,css und javascript, wo ich mich präsentiere für zukünftige Arbeitsgeber. Dabei zeige ich meine Projekte, Dokumentationen und Informationen über mich. Auch habe ich mich entschieden, zwei Unterseiten abseits der Haupseite zu machen. Auf der Hauptseite sieht man meine IT Projekte und wie man mich erreichen kann. Wenn man meine Projekte sieht, kann man dort entweder meine Dokumentation zum Projekt lesen oder meinen Portfoliobeitrag dazu. Man kann mir auch einen Feedback geben, indem man oben auf contact drückt. Dort kann man mir eine Email mit einem Text senden. Auch habe ich mich entschieden, meine IDAF Projekte zu zeigen, die man auf einer separaten Website sehen kann.
+Mein Projekt ist eine Portfoliowebsite in HTML, CSS und JavaScript, wo ich mich präsentiere für zukünftige Arbeitsgeber. Dabei zeige ich meine Projekte, Dokumentationen und Informationen über mich. Auch habe ich mich entschieden, zwei Unterseiten abseits der Hauptseite zu machen. Auf der Hauptseite sieht man meine IT-Projekte und wie man mich erreichen kann. Wenn man meine Projekte sieht, kann man dort entweder meine Dokumentation zum Projekt lesen oder meinen Portfoliobeitrag dazu. Man kann mir auch ein Feedback geben, indem man oben auf Kontakt drückt. Dort kann man mir eine E-Mail mit einem Text senden. Auch habe ich mich entschieden, meine IDAF Projekte zu zeigen, die man auf einer separaten Website sehen kann.
 
 ## 4 Realisieren
 
