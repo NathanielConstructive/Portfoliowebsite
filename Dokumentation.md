@@ -12,7 +12,7 @@ Mirhan Özden
 
 ### 1.1 Ihr Projekt
 
-Mein Projekt ist eine Portfoliowebsite über mich, wo ich alles über mich aufzeige.
+Mein Projekt ist eine Portfoliowebsite über mich, wo ich alles über mich aufzeige im Bereich IT aber auch ausserhalb der Informatik. Dieses Projekt sollte für die Praktikumssuche helfen.
 
 ### 1.2 User Stories
 
@@ -20,21 +20,20 @@ Mein Projekt ist eine Portfoliowebsite über mich, wo ich alles über mich aufze
 | ---- | --------------- | ----------- | --------------------------------------------------------------- | ------------------------- |
 | 1    | Muss            | Funktional  | Als ein Besucher möchte ich die Startseite sehen, damit ich sofort einen Überblick über die Website-Inhalte bekomme. | 2 Lektionen               |
 | 2    | Muss            | Funktional  | Als ein Besucher möchte ich ein Portfolio mit Projekten sehen, damit ich mehr über die Fähigkeiten des Websiten-Besitzers erfahre. | 3 Lektionen               |
-| 4    | Muss            | Funktional  | Als ein Besucher möchte ich eine Kontaktseite sehen, damit ich den Websiten-Besitzer direkt kontaktieren kann. | 2 Lektionen               |
-| 5    | Kann            | Rand        | Als ein Besucher möchte ich Social-Media-Links sehen, damit ich dem Websiten-Besitzer auf anderen Plattformen folgen kann. | 1 Lektion                 |
-| 6    | Muss            | Funktional  | Als ein Besucher möchte ich die Möglichkeit haben, eine Projektbeschreibung zu jedem Projekt im Portfolio zu sehen, damit ich mehr Details erfahre. | 2 Lektionen               |
-| 7    | Kann            | Qualität    | Als ein Besucher möchte ich eine Suchfunktion auf der Website haben, damit ich spezifische Projekte schnell finden kann. | 2 Lektionen               |
-| 8    | Muss            | Funktional  | Als ein Besucher möchte ich eine übersichtliche Navigationsleiste sehen, damit ich schnell zwischen den Seiten wechseln kann. | 1 Lektion                 |
-| 9    | Kann            | Rand        | Als ein Besucher möchte ich eine Feedback-Möglichkeit auf der Kontaktseite haben, damit ich sofort Rückmeldungen geben kann. | 1 Lektion                 |
-| 10   | Kann            | Qualität    | Als ein Besucher möchte ich animierte Übergänge zwischen den Seiten haben, damit die Benutzererfahrung flüssiger und ansprechender wird. | 1 Lektion                 |
-| 11   | Muss            | Funktional  | Als ein Besucher möchte ich jedes Projekt auf einer eigenen Detailseite sehen können, damit ich vollständige Informationen dazu erhalte. | 2 Lektionen               |
-| 12   | Kann            | Rand        | Als ein Besucher möchte ich eine "Über mich"-Seite sehen, damit ich mehr über den Websiten-Besitzer erfahren kann. | 1 Lektion                 |
-| 13   | Muss            | Funktional  | Als ein Besucher möchte ich eine Funktion haben, um Projekte nach Kategorien zu filtern, damit ich schnell die Projekte finde, die mich interessieren. | 2 Lektionen               |
-| 14   | Kann            | Qualität    | Als ein Besucher möchte ich Ladeanimationen sehen, damit die Seite professioneller und interaktiver wirkt. | 1 Lektion                 |
-| 15   | Kann            | Rand        | Als ein Besucher möchte ich eine Blog-Sektion sehen, damit ich mehr über die Denkweise und Ansichten des Websiten-Besitzers erfahre. | 2 Lektionen               |
-| 16   | Muss            | Funktional  | Als ein Besucher möchte ich, dass die Website barrierefrei ist, damit sie für alle Nutzer zugänglich ist. | 2 Lektionen               |
-| 17   | Kann            | Rand        | Als ein Besucher möchte ich die Möglichkeit haben, das Design der Seite zwischen einem hellen und einem dunklen Modus zu wechseln, damit die Seite angenehmer zu benutzen ist. | 1 Lektion                 |
-|18|muss|funktional|Als Benutzer möchte ich die Website auf Github publishen, damit andere meine Website sehen können.|
+|3|muss|qualität|Als Benutzer möchte ich zu jedem Projekt den Portfoliobeitrag sehen, damit ich lesen kann, wie er gearbeitet hat.|1 Lektion|
+|4|muss|Qualität|Als Benutzer möchte ich zu jedem Projekt die Dokumentation sehen, damit ich weiss, was für Anforderungen sein Projekt hatte und was er erreichen konnte.|1 Lektion|
+|5|kann|Qualität|Als Benutzer möchte ich zu jedem Projekt ein Bild und ein Video sehen, damit ich schon im Vorhinein weiss, wie das Produkt aussieht.|2 Lektionen|
+|6|kann|Qualität|Als Benutzer möchte ich normalerweise das Bild eines Projektes sehen, wenn ich aber mit der Maus darüber hovere, möchte ich das Video sehen, damit ich direkt sehe, ob das Produkt funktioniert|3 Lektionen|
+| 7    | Muss            | Funktional  | Als ein Besucher möchte ich eine Kontaktseite sehen, damit ich den Websiten-Besitzer direkt kontaktieren kann. | 2 Lektionen               |
+| 8    | Kann            | Rand        | Als ein Besucher möchte ich Social-Media-Links sehen, damit ich dem Websiten-Besitzer auf anderen Plattformen folgen kann. | 1 Lektion                 |
+| 9    | Muss            | Funktional  | Als ein Besucher möchte ich die Möglichkeit haben, eine Projektbeschreibung zu jedem Projekt im Portfolio zu sehen, damit ich mehr Details erfahre. | 2 Lektionen               |
+| 10    | Muss            | Funktional  | Als ein Besucher möchte ich eine übersichtliche Navigationsleiste sehen, damit ich schnell zwischen den Seiten wechseln kann. | 1 Lektion                 |
+|11    | Kann            | Rand        | Als ein Besucher möchte ich eine Feedback-Möglichkeit auf der Kontaktseite haben, damit ich sofort Rückmeldungen geben kann. | 1 Lektion                 |
+|12|kann|Qualität|Als Benutzer möchte ich, dass ich auf einer separaten Website auch Projekte über andere Themen sehe, damit man weiss, was der Informatiker ausserhalb von IT schon gemacht hat.|2 Lektionen|
+| 13   | Kann            | Qualität    | Als ein Besucher möchte ich Animationen sehen, damit die Seite professioneller und interaktiver wirkt. | 1 Lektion|
+| 14   | Kann            | Rand        | Als ein Besucher möchte ich die Möglichkeit haben, das Design der Seite zwischen einem hellen und einem dunklen Modus zu wechseln, damit die Seite angenehmer zu benutzen ist. | 1 Lektion                 |
+|15|muss|funktional|Als Benutzer möchte ich die Website auf Github publishen, damit andere meine Website sehen können.|2 Lektionen|
+|16|muss|funktional|Portfoliobeitrag|4 Lektionen|
 
 
 ### 1.3 Testfälle
@@ -42,9 +41,20 @@ Mein Projekt ist eine Portfoliowebsite über mich, wo ich alles über mich aufze
 | TC-№ | Ausgangslage | Eingabe | Erwartete Ausgabe |
 | ---- | ------------ | ------- | ----------------- |
 | 1.1  |              |         |                   |
-| ...  |              |         |                   |
-
-
+|2.1||||
+|3.1|||||
+|4.1|||||
+|5.1|||||
+|6.1|||||
+|7.1|||||
+|8.1|||||
+|9.1|||||
+|10.1|||||
+|11.1|||||
+|12.1|||||
+|13.1|||||
+|14.1|||||
+|15.1|||||
 
 ## 2 Planen
 
