@@ -24,46 +24,56 @@ Mein Projekt ist eine Portfoliowebsite über mich, wo ich alles über mich aufze
 |4|muss|Qualität|Als Benutzer möchte ich zu jedem Projekt die Dokumentation sehen, damit ich weiss, was für Anforderungen sein Projekt hatte und was er erreichen konnte.|1 Lektion|
 |5|kann|Qualität|Als Benutzer möchte ich zu jedem Projekt ein Bild und ein Video sehen, damit ich schon im Vorhinein weiss, wie das Produkt aussieht.|2 Lektionen|
 |6|kann|Qualität|Als Benutzer möchte ich normalerweise das Bild eines Projektes sehen, wenn ich aber mit der Maus darüber hovere, möchte ich das Video sehen, damit ich direkt sehe, ob das Produkt funktioniert|3 Lektionen|
-| 7    | Muss            | Funktional  | Als ein Besucher möchte ich eine Kontaktseite sehen, damit ich den Websiten-Besitzer direkt kontaktieren kann. | 2 Lektionen               |
-| 8    | Kann            | Rand        | Als ein Besucher möchte ich Social-Media-Links sehen, damit ich dem Websiten-Besitzer auf anderen Plattformen folgen kann. | 1 Lektion                 |
-| 9    | Muss            | Funktional  | Als ein Besucher möchte ich die Möglichkeit haben, eine Projektbeschreibung zu jedem Projekt im Portfolio zu sehen, damit ich mehr Details erfahre. | 2 Lektionen               |
-| 10    | Muss            | Funktional  | Als ein Besucher möchte ich eine übersichtliche Navigationsleiste sehen, damit ich schnell zwischen den Seiten wechseln kann. | 1 Lektion                 |
-|11    | Kann            | Rand        | Als ein Besucher möchte ich eine Feedback-Möglichkeit auf der Kontaktseite haben, damit ich sofort Rückmeldungen geben kann. | 1 Lektion                 |
-|12|kann|Qualität|Als Benutzer möchte ich, dass ich auf einer separaten Website auch Projekte über andere Themen sehe, damit man weiss, was der Informatiker ausserhalb von IT schon gemacht hat.|2 Lektionen|
-| 13   | Kann            | Qualität    | Als ein Besucher möchte ich Animationen sehen, damit die Seite professioneller und interaktiver wirkt. | 1 Lektion|
-| 14   | Kann            | Rand        | Als ein Besucher möchte ich die Möglichkeit haben, das Design der Seite zwischen einem hellen und einem dunklen Modus zu wechseln, damit die Seite angenehmer zu benutzen ist. | 1 Lektion                 |
-|15|muss|funktional|Als Benutzer möchte ich die Website auf Github publishen, damit andere meine Website sehen können.|2 Lektionen|
-|16|muss|funktional|Portfoliobeitrag|4 Lektionen|
+| 7    | Kann            | Rand        | Als ein Besucher möchte ich Social-Media-Links sehen, damit ich dem Websiten-Besitzer auf anderen Plattformen folgen kann. | 1 Lektion                 |
+| 8    | Muss            | Funktional  | Als ein Besucher möchte ich die Möglichkeit haben, eine Projektbeschreibung zu jedem Projekt im Portfolio zu sehen, damit ich mehr Details erfahre. | 2 Lektionen               |
+| 9    | Muss            | Funktional  | Als ein Besucher möchte ich eine übersichtliche Navigationsleiste sehen, damit ich schnell zwischen den Seiten wechseln kann. | 1 Lektion                 |
+|10    | Kann            | Rand        | Als ein Besucher möchte ich eine Feedback-Möglichkeit auf der Kontaktseite haben, damit ich sofort Rückmeldungen geben kann. | 1 Lektion                 |
+|11|kann|Qualität|Als Benutzer möchte ich, dass ich auf einer separaten Website auch Projekte über andere Themen sehe, damit man weiss, was der Informatiker ausserhalb von IT schon gemacht hat.|2 Lektionen|
+| 12   | Kann            | Qualität    | Als ein Besucher möchte ich Animationen sehen, damit die Seite professioneller und interaktiver wirkt. | 1 Lektion|
+| 13   | Kann            | Rand        | Als ein Besucher möchte ich die Möglichkeit haben, das Design der Seite zwischen einem hellen und einem dunklen Modus zu wechseln, damit die Seite angenehmer zu benutzen ist. | 1 Lektion                 |
+|14|muss|funktional|Als Benutzer möchte ich die Website auf Github publishen, damit andere meine Website sehen können.|2 Lektionen|
+|15|muss|funktional|Portfoliobeitrag|4 Lektionen|
 
 
 ### 1.3 Testfälle
 
 | TC-№ | Ausgangslage | Eingabe | Erwartete Ausgabe |
 | ---- | ------------ | ------- | ----------------- |
-| 1.1  |              |         |                   |
-|2.1||||
-|3.1|||||
-|4.1|||||
-|5.1|||||
-|6.1|||||
-|7.1|||||
-|8.1|||||
-|9.1|||||
-|10.1|||||
-|11.1|||||
-|12.1|||||
-|13.1|||||
-|14.1|||||
-|15.1|||||
+| 1.1  | Die Website ist geöffnet             |  -       | Die Startwebsite                  |
+|2.1|Website hat geladen und ist geöffnet|-|IT Projekte|
+|3.1|Projekte sind vorhanden|-|Link zum Portfoliobeitrag|
+|4.1|Projekte sind vorhanden|-|Link zur Dokumentation|
+|5.1|Projekt mit Bild und Video ist vorhanden|-|Bild|
+|6.1|Projekt mit Bild|-(auf das Bild hovern)|Video wird angezeigt|
+|7.1|Website ist geladen|Auf eines der beiden Links klicken|Twitter oder LinkedIn account|
+|8.1|Website mit Projekt ist geladen|-|Zu jedem Projekt eine kleine Beschreibung, was das Projekt ist.|
+|9.1|Website ist geladen|-|Links beim Nav, damit man von Seite zu Seite springen kann.|
+|10.1|Website ist geladen|Auf "contact" klicken, das Feedbackformular ausfüllen und auf absenden drücken|Eine Seite von Web3Forms wo steht, dass das Feedback weitergeleitet wurde. |
+|11.1|Website ist geladen|Auf "IDAF Projekte" klicken|Projekte ausserhalb der IT.|
+|12.1|Website ist geladen|-(Auf Projekt hovern)|Das Projekt wird hervorgehoben|
+|13.1|Website ist geladen|Auf den Knopf neben der Sonne und dem Mond klicken|Webseite geht in den Dunkel oder Hellmodus.|
+|14.1|Man drückt auf den Link für die Website|-|Man sieht die Startseite|
+
 
 ## 2 Planen
 
 | AP-№ | Frist | Zuständig | Beschreibung | geplante Zeit |
 | ---- | ----- | --------- | ------------ | ------------- |
-| 1.A  |       |           |              |               |
-| ...  |       |           |              |               |
-
-Total: 
+| 1.A  |       | Mirhan Özden          | Startwebsite programmieren              | 2 Lektionen              |
+| 2.A  |       |           |              |             3  |
+|3.A||Mirhan Özden  ||1|
+|4.A||Mirhan Özden  ||1|
+|5.A||Mirhan Özden  ||2|
+|6.A||Mirhan Özden  ||3|
+|7.A||Mirhan Özden  ||1|
+|8.A||Mirhan Özden  ||2|
+|9.A||Mirhan Özden  ||1|
+|10.A||Mirhan Özden  ||1|
+|11.A||Mirhan Özden  ||2|
+|12.A||Mirhan Özden  ||1|
+|13.A||Mirhan Özden  ||1|
+|14.A||Mirhan Özden  |Website mit Github Pages veröffentlichen|2|
+|15.A|25.10.2024|Mirhan Özden  |Portfoliobeitrag machen|4|
 
 
 
@@ -75,16 +85,44 @@ Mein Projekt ist eine Portfoliowebsite in html,css und javascript, wo ich mich p
 
 | AP-№ | Datum | Zuständig | geplante Zeit | tatsächliche Zeit |
 | ---- | ----- | --------- | ------------- | ----------------- |
-| 1.A  |       |           |               |                   |
-| ...  |       |           |               |                   |
+| 1.A  |       |  Mirhan Özden         |               |                   |
+| 2.A  |       |  Mirhan Özden         |               |                   |
+|3.A||Mirhan Özden|||
+|4.A||Mirhan Özden|||
+|5.A||Mirhan Özden|||
+|6.A||Mirhan Özden|||
+|7.A||Mirhan Özden|||
+|8.A||Mirhan Özden|||
+|9.A||Mirhan Özden|||
+|10.A||Mirhan Özden|||
+|11.A||Mirhan Özden|||
+|12.A||Mirhan Özden|||
+|13.A||Mirhan Özden|||
+|14.A||Mirhan Özden|||
+|15.A||Mirhan Özden|||
 
 
 
 
+
+## 5 Auswerten
 
 | TC-№ | Datum | Resultat | Tester |
 | ---- | ----- | -------- | ------ |
-| 1.1  |       |          |        |
-| ...  |       |          |        |
+| 1.1  | 25.10.2024      | Funktioniert         | Mirhan Özden       |
+| 2.1  | 25.10.2024      |          |   Mirhan Özden       |
+|3.1|25.10.2024|Funktioniert|Mirhan Özden|
+|4.1|25.10.2024|Funktioniert|Mirhan Özden|
+|5.1|25.10.2024|Funktioniert|Mirhan Özden|
+|6.1|25.10.2024|Funktioniert|Mirhan Özden|
+|7.1|25.10.2024|Funktioniert|Mirhan Özden|
+|8.1|25.10.2024|Funktioniert|Mirhan Özden|
+|9.1|25.10.2024|Funktioniert|Mirhan Özden|
+|10.1|25.10.2024|Funktioniert|Mirhan Özden|
+|11.1|25.10.2024|Funktioniert|Mirhan Özden|
+|12.1|25.10.2024|Funktioniert|Mirhan Özden|
+|13.1|25.10.2024|Funktioniert|Mirhan Özden|
+|14.1|25.10.2024|Funktioniert|Mirhan Özden|
 
 Fazit:
+Alle Tests waren erfolreich
